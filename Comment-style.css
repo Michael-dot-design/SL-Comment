@@ -1,0 +1,374 @@
+/*头部样式开始*/
+.header{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #333;
+    font-size: 17px;
+    line-height: 40px;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+}
+.header li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+}
+.header i{
+    font-size: 20px;
+    color: #b0b0b0;
+}
+.header a{
+    color: #b0b0b0;
+    text-decoration: none;
+}
+.header a:hover,i:hover{
+    color: #fff;
+}
+.header-right .search{
+    width: 280px;
+    height: 30px;
+    border: #b0b0b0;
+    border-radius: 8px;
+    outline: none;
+}
+.header-right .iconfont{
+    margin-right: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+/*头部样式结束*/
+
+
+/*面板开始*/
+.banner{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 17px;
+    line-height: 45px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .18);
+}
+.banner li{
+    float: left;
+    position: relative;
+    list-style: none;
+    margin-left: 28px;
+}
+.banner-list .iconfont{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.back{
+    width: 100%;
+    height: 1200px;
+    background-color: #f7ebeb;
+}
+.back h1{
+    padding-top: 80px;
+    font-size: 66px;
+    text-align: center;
+}
+.back p{
+    padding-top: 0px;
+    font-size: 23px;
+    color: #b0b0b0;
+    text-align: center;
+}
+.start{
+    width: 160px;
+    height: 60px;
+    margin-left: 580px;
+    margin-top: 60px;
+    border-radius: 8px;
+    background-color: #333;
+    transition: all .3s linear;
+}
+.start a{
+    font-size: 23px;
+    font-weight: 550;
+    color: #fff;
+    text-decoration: none;
+}
+.start p{
+    line-height: 55px;
+}
+.start .iconfont{
+    font-size: 25px;
+}
+.start a:hover{
+    color: #b0b0b0;
+}
+.start:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+.back .instance{
+    width: 100%;
+    height: 600px;
+}
+.instance-left{
+    float: left;
+    margin-top: 35px;
+    margin-left: 80px;
+    width: 500px;
+    height: 720px;
+    background-color:  rgb(197, 195, 195);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .18);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .18);
+    transition: all.3s linear;
+}
+.instance-left:hover,.instance-right:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+.instance-right{
+    float: right;
+    margin-top: 35px;
+    margin-right: 80px;
+    width: 500px;
+    height: 720px;
+    background-color: rgb(197, 195, 195);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .18);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .18);
+    transition: all.3s linear;
+}
+.instance .head{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.instance .name{
+    float: right;
+    margin-top: 20px;
+    margin-right: 380px;
+    font-size: 16px;
+   text-decoration: none;
+    color: #333;
+}
+.instance .time{
+    float: left;
+    font-size: 15px;
+    color: #807c7c;
+    margin-top: -33px;
+    margin-left: 140px;
+}
+.instance .passage{
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+}
+.instance video{
+    margin: 0 50px;
+    border-radius: 5px;
+}
+.feel ul li{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #333;
+}
+.feel ul li:hover{
+    color: #ff6700;
+}
+.comment ul li{
+    clear: both;
+    list-style: none;
+}
+.comment .comment-top{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.comment a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+.comment span{
+    font-size: 14px;
+    color: #807c7c;
+    margin-left: 5px;
+}
+.comment p{
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+}
+.instance-right img{
+    margin-left: 50px;
+}
+/*面板结束*/
+
+/*第二块面板开始*/
+.container{
+    clear: both;
+    width: 100%;
+    background-color: #f7ebeb;
+}
+.share{
+    display: flex;
+}
+.introduce h1{
+    font-size: 66px;
+}
+.introduce p{
+    font-size: 23px;
+}
+.share1{
+    background-color: #b0b0b0;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .18);
+    margin: 20px 100px;
+    transition: all .3s linear;
+}
+.share1:hover,.share2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+.share1 .home{
+    display: flex;
+    width: 500px;
+    height: 60px;
+}
+.share1 .head{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+.share1 .nav{
+    width: 500px;
+    height: 60px;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    line-height: 30px;
+}
+.nav .name a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+.nav .name{
+    margin-left: -30px;
+}
+.nav .name2{
+    float: right;
+    margin-right: 35px;
+}
+.nav .iconfont{
+    font-size: 20px;
+}
+.nav .name a:hover{
+    color: #ff6700;
+}
+.share1 .picture img{
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 0 50px;
+}
+.word p{
+    margin-top: 5px;
+}
+.word .one{
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+}
+.word .two{
+    color: rgb(122, 228, 192);
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 5px;
+}
+.comment .iconfont{
+    color: red;
+    float: left;
+}
+.share2{
+    background-color: #b0b0b0;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .18);
+    margin-top: 20px;
+    transition: all .3s linear;
+}
+.share2 .home{
+    display: flex;
+    width: 500px;
+    height: 60px;
+}
+.share2 .head{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+.share2 .nav{
+    width: 500px;
+    height: 60px;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    line-height: 30px;
+}
+.nav .name a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+.nav .name{
+    margin-left: -30px;
+}
+.nav .name2{
+    float: right;
+    margin-right: 35px;
+}
+.nav .iconfont{
+    font-size: 20px;
+}
+.share2 .picture img{
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 0 50px;
+}
+.word p{
+    margin-top: 5px;
+}
+.word .one{
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+}
+.word .two{
+    color: rgb(122, 228, 192);
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 5px;
+}
+.comment .iconfont{
+    color: red;
+    float: left;
+}
+/*第二块面板结束*/
